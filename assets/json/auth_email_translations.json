@@ -1,0 +1,72 @@
+{
+  "en": {
+    "ConfirmSignup": {
+      "Title": "Confirm Your Signup",
+      "H2": "Confirm your signup",
+      "P": "Follow this link to confirm your user:",
+      "Link": "Confirm your mail"
+    },
+    "InviteUser": {
+      "Title": "You have been invited",
+      "H2": "You have been invited",
+      "PFirstPart": "You have been invited to create a user on",
+      "PSecondPart": ". Follow this link to accept the invite:",
+      "Link": "Accept the invite"
+    },
+    "MagicLink": {
+      "Title": "Your Magic Link",
+      "H2": "Magic Link",
+      "P": "Follow this link to login:",
+      "Link": "Log In"
+    },
+    "ChangeEmailAddress": {
+      "Title": "Confirm Email Change",
+      "H2": "Confirm Change of Email",
+      "P": "Follow this link to confirm the update of your email from",
+      "To": "to",
+      "Last": ":",
+      "Link": "Change Email"
+    },
+    "ResetPassword": {
+      "Title": "Reset Your Password",
+      "H2": "Reset Password",
+      "P": "Follow this link to reset the password for your user:",
+      "Link": "Reset Password"
+    }
+  },
+  "ja": {
+    "ConfirmSignup": {
+      "Title": "登録の確認をお願いします",
+      "H2": "登録の確認",
+      "P": "リンクをクリックして登録手続きを完了してください：",
+      "Link": "登録を完了する"
+    },
+    "InviteUser": {
+      "Title": "招待されています",
+      "H2": "ユーザー作成の招待",
+      "PFirstPart": "以下のリンクからアカウント作成の招待に応じてください：",
+      "PSecondPart": "",
+      "Link": "招待を受ける"
+    },
+    "MagicLink": {
+      "Title": "マジックリンク",
+      "H2": "マジックリンク",
+      "P": "このリンクに従ってログインしてください：",
+      "Link": "ログインする"
+    },
+    "ChangeEmailAddress": {
+      "Title": "メールアドレス変更を確認してください",
+      "H2": "メールアドレスの変更確認",
+      "P": "このリンクに従って新しいメールアドレスへの更新を確認してください：",
+      "To": "から",
+      "Last": "へ",
+      "Link": "メールを変更"
+    },
+    "ResetPassword": {
+      "Title": "パスワードのリセット",
+      "H2": "パスワードリセット",
+      "P": "このリンクに従ってパスワードをリセットしてください：",
+      "Link": "パスワードをリセットする"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+name: baseapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  supabase_flutter: ^2.3.1
+  flutter_riverpod: ^2.4.9
+  shared_preferences: ^2.2.2
+  flutter_localization: ^0.2.0
+  intl_utils: ^2.8.7
+  intl: ^0.19.0
+  timeago: ^3.6.0
+  font_awesome_flutter: ^10.7.0
+  phosphor_flutter: ^2.0.1
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+  package_info_plus: ^8.0.0
+  uni_links: ^0.5.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter_intl: # この設定を追加
+  enabled: true
+  output-dir: lib/generated # 生成されたファイルのディレクトリ
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/face5.png
+    - assets/images/sega.png
+    - assets/images/sega2.png
+    - assets/images/utan.png
+    - assets/json/auth_email_translations.json
+    - assets/images/sord_icon.png
+    - assets/images/sord.png
+    - assets/images/sad.png
