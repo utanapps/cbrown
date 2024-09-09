@@ -56,7 +56,7 @@ class SignUpPageState extends ConsumerState<SignUpPage> {
     //     ? "https://utanapps.vercel.app/signup"
     //     : "io.supabase.baseapp://signup";
 
-    String redirectUrl = "https://questutan-utanapps-projects.vercel.app";
+    String redirectUrl = "https://rebatify.vercel.app";
 
 
     try {

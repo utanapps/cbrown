@@ -100,7 +100,7 @@ class SupabaseService {
         UserAttributes(
             email: newEmail, // 引数から取得した新しいメールアドレスを使用
             data: data),
-        emailRedirectTo: "https://www.utanapps.com/redirect",
+        emailRedirectTo: "https://rebatify.vercel.app",
       );
 
       return res; // UserResponse型のresを返す
