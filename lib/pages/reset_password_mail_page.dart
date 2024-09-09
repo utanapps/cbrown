@@ -49,12 +49,12 @@ class ResetPasswordMailPageState extends ConsumerState<ResetPasswordMailPage> {
       setState(() => _isLoading = true); // ローディング開始
 
       try {
-        // await supabaseService.resetPasswordForEmail(email,
-        //     redirectTo: kIsWeb
-        //         ? 'https://utanapps.vercel.app/reset-password'
-        //         : 'io.supabase.baseapp://reset-password');
         await supabaseService.resetPasswordForEmail(email,
-            redirectTo: 'https://rebatify.vercel.app');
+            redirectTo: kIsWeb
+                ? 'https://utanapps.vercel.app/reset-password'
+                : 'io.supabase.baseapp://reset-password');
+        // await supabaseService.resetPasswordForEmail(email,
+        //     redirectTo: 'https://rebatify.vercel.app');
         if (mounted) {
           showCustomDialog(
             context: context,
