@@ -54,7 +54,7 @@ class ResetPasswordMailPageState extends ConsumerState<ResetPasswordMailPage> {
         //         ? 'https://utanapps.vercel.app/reset-password'
         //         : 'io.supabase.baseapp://reset-password');
         await supabaseService.resetPasswordForEmail(email,
-            redirectTo: 'https://questutan-utanapps-projects.vercel.app');
+            redirectTo: 'https://rebatify.vercel.app');
         if (mounted) {
           showCustomDialog(
             context: context,
