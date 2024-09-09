@@ -23,8 +23,6 @@ class SplashPage extends ConsumerWidget {
         landingPage = const PasswordRecoveryPage();
         break;
       case AuthStatus.unauthenticated:
-        print('444444');
-
         landingPage = const WelcomePage();
         break;
       case AuthStatus.unconfirmed: // unconfirmed と unauthenticated で同じページを表示

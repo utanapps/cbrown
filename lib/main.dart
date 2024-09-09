@@ -1,3 +1,4 @@
+import 'package:baseapp/pages/success-page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -39,6 +40,8 @@ class MyApp extends ConsumerWidget {
         '/welcome': (context) => const WelcomePage(),
         '/login': (context) => const LoginPage(),
         '/splash': (context) => const SplashPage(),
+        '/success': (context) => const SuccessPage(),
+
       },
       darkTheme: ThemeData(
         useMaterial3: true,
